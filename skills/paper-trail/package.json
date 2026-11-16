@@ -1,0 +1,19 @@
+{
+  "name": "paper-trail",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent skill: turn an arXiv paper into a single-page HTML walkthrough with KaTeX math, paper figures and interactive widgets.",
+  "scripts": {
+    "setup": "bash scripts/setup.sh",
+    "build": "node scripts/build.mjs",
+    "qa": "python3 scripts/qa_static.py"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "esbuild": "^0.25.0",
+    "katex": "^0.16.11",
+    "tailwindcss": "^4.1.11",
+    "three": "^0.180.0"
+  }
+}
